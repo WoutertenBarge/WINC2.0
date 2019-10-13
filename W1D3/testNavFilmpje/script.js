@@ -1,23 +1,50 @@
+//test for loops
+
+let links = document.getElementsByTagName("a");
+
+
+for ( i = 1; i <= links.length; i++) {
+
+    console.log('this is link number' + i);
+}
+
+console.log ('all links now looped')
+
+
+
+
+
+
+
+
+// test while loops
+
+/*1 et age = 19
+
+while (age < 20) {
+
+    console.log('You are young');
+    age++;
+}
+//console.log('You are old');
+document.write('You are OLD');
+ */
+
+
+
+
+
 //FUNCTIES
 
 
 
-
+/* 
 let double = function(num) {
     return num * 2;
  }
 
  let twelve = double(6);
- console.log(double(6));
-
-
-
-
-
-
-
-
-
+ console.log(double(6)); */
 
 
 
